@@ -1,0 +1,29 @@
+.movieRow{
+    margin-bottom: 30px;
+}
+.movieRow h2{
+    margin: 0px 0px 0px 30px;
+}
+.movieRowListArea{
+    /* Tudo que passar da tela no eixo X será cortado */
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+.movieRowList{
+    width: 9999px;
+}
+.movieRowItem{
+    display: inline-block;
+    /* Aqui eu disponibilizo uma largura X para o meu item */
+    width: 150px;
+    cursor: pointer;
+}
+.movieRowItem img{
+    /* Aqui que eu digo que minha imagem ocupara 100% da largura disponivel no meu item */
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.3s;
+}
+.movieRowItem img:hover{
+    transform: scale(1);
+}
